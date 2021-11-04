@@ -22,18 +22,18 @@ $(document).ready(function() {
             } );
         },
 
-        "ajax":"listado.json",
+        "ajax":"articulos-ramos-json.json",
         "columns": [
-        {"data":"Id"},
+        {"data":"Codigo"},
+        {"data":"Rubro"},
+        {"data":"Aplicacion"},
         {"data":"Marca"},
-        {"data":"Elemento"},
-        {"data":"Modelo"},
         ],
         "bSort" : false ,
         "oLanguage": {
         "sSearch": "Buscar: ",
         "sLengthMenu": "Motrar _MENU_ filas",
-        "sInfo": "Un total de  _TOTAL_ registros para mostrar (_START_ a _END_)",
+        "sInfo": "Un total de  _TOTAL_ registros para mostrar (_START_ - _END_)",
         "oPaginate": {
             "sNext": "Siguiente",
             "sPrevious": "Anterior",
