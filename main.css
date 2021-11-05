@@ -31,7 +31,7 @@ a:hover{
 
 nav a{
     text-decoration: none;
-    color: #ffffff;
+
 }
 nav a:hover{
     color: rgb(139, 139, 233);
@@ -217,10 +217,10 @@ nav a:hover{
 
   .footer-div a{
       text-decoration: none;
-      color: #ffffff;
+      /* color: #ffffff; */
   }
   .footer-div a:hover{
-    color: #E2E8F0;
+    /* color: #E2E8F0; */
 }
 
   @media only screen and (max-width: 600px) {
