@@ -198,7 +198,16 @@ nav a:hover{
   .text-blue{
     font-family: 'Oswald', sans-serif;
     color: rgb(93,90,212);
-    font-size: 45px;
+    font-size: 25px;
+  }
+  ul li h5{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(93,90,212);
+    font-size: 25px;
+  }
+
+  ul li a{
+      font-weight: 500;
   }
   
 
@@ -221,6 +230,10 @@ nav a:hover{
   }
   .footer-div a:hover{
     /* color: #E2E8F0; */
+}
+
+footer{
+    padding: 20px;
 }
 
   @media only screen and (max-width: 600px) {
