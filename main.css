@@ -100,6 +100,9 @@ nav a:hover{
         width: 100%;
     }
     .title-container{
+        text-align: center;
+        justify-content: center;
+        padding-top: 40px;
         margin-bottom: 30px;
         width: 100%;
     }
@@ -164,6 +167,7 @@ nav a:hover{
 
 /* nosotros */
 
+
 .nosotros{
     display: flex;
     flex-direction: row;
@@ -190,6 +194,28 @@ nav a:hover{
         width: 100%;
     }
   }
+
+  
+  .centrar-distribuimos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centrar-distribuimos img{
+    width: 70%;
+}
+@media only screen and (max-width: 600px) {
+  .centrar-distribuimos img{
+      width: 80%;
+  }
+}
+
+.centrar-texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
   /* ventas */
