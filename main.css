@@ -29,13 +29,10 @@ a:hover{
 }
 
 
-nav a{
+span a{
     text-decoration: none;
+}
 
-}
-nav a:hover{
-    color: rgb(139, 139, 233);
-}
 
 /* Header */
 .masthead {
@@ -147,24 +144,6 @@ nav a:hover{
     padding: 15px;
 }
 
-
-.pre-footer img{
-    width: 200px;
-}
-
-
-
-.pre-footer li, a{
-    color: white;
-    margin-bottom: 5px;
-    
-}
-
-.pre-footer a:hover{
-    color: red;
-}
-
-
 /* nosotros */
 
 
@@ -252,10 +231,10 @@ nav a:hover{
 
   .footer-div a{
       text-decoration: none;
-      /* color: #ffffff; */
+      color: #0d6efd;;
   }
   .footer-div a:hover{
-    /* color: #E2E8F0; */
+    color: #0e5bcf;
 }
 
 footer{
@@ -271,5 +250,14 @@ footer{
     .footer-div div{
         margin-top: 20px ;
     }
+
+    .footer-div ul li h5{
+        font-size: 20px;
+    }
+
+    tr th input{
+        width: 100px;
+    }
+
 
   }
